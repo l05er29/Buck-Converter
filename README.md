@@ -17,7 +17,6 @@ Switching Frequency (f_s): 20kHz
 ## Circuit Design
 1. Buck Converter Topology
 The buck converter consists of the following main components:
-
 Switch (MOSFET): Turned on and off by the PWM signal.
 Diode: Provides a freewheeling path for the inductor current when the switch is off.
 Inductor: Limits the rate of change of current.
