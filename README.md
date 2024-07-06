@@ -32,7 +32,7 @@ Filters out the voltage ripple in the output.
 2. Pulse Width Modulation (PWM)
 The PWM controller regulates the output voltage by adjusting the duty cycle (D) of the switching signal. The duty cycle is defined as the ratio of the on-time of the switch to the total switching period. In this design, the switch is on for 70% of the switching period.
 
-PWM Usage: '
+PWM Usage'
 Used for switching modulation, demonstrating Discontinuous Conduction Mode (DCM).
 3. Component Soldering
 PCB Soldering:
@@ -52,11 +52,11 @@ Discontinuous Conduction Mode (DCM): Demonstrated DCM by reducing the switching 
  ## Waveform Analysis:
  Recorded and analyzed waveforms to ensure the converter met the specified performance criteria.
 ## Results and Observations
-1. Voltage Conversion:
+1. Voltage Conversion
 Successfully converted a 25V input to a stable 17.5V output with an output current of 1A.
-2. Mode Control: 
+2. Mode Control
 Demonstrated effective control and operation in both CCM and DCM.
-3. Precise PWM Control:
+3. Precise PWM Control
 The TL494 module provided precise PWM control, ensuring efficient and reliable performance of the buck converter.
 ## Conclusion
 This project effectively showcased the ability to design, implement, and test a DC-DC buck converter using the TL494 module. The experience gained from this project will be valuable for future endeavors in power electronics and control systems.
