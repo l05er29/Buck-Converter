@@ -37,17 +37,23 @@ Continuous Conduction Mode (CCM): Verified the converter's operation in CCM by o
 2. DCM Demonstration
 Discontinuous Conduction Mode (DCM): Demonstrated DCM by reducing the switching frequency and observing the corresponding waveforms.
 3. Performance Evaluation
-## Waveform Analysis: Recorded and analyzed waveforms to ensure the converter met the specified performance criteria.
+ ## Waveform Analysis:
+ Recorded and analyzed waveforms to ensure the converter met the specified performance criteria.
 ## Results and Observations
-Voltage Conversion: Successfully converted a 25V input to a stable 17.5V output with an output current of 1A.
-Mode Control: Demonstrated effective control and operation in both CCM and DCM.
-Precise PWM Control: The TL494 module provided precise PWM control, ensuring efficient and reliable performance of the buck converter.
-Conclusion
+1. Voltage Conversion:
+Successfully converted a 25V input to a stable 17.5V output with an output current of 1A.
+2. Mode Control: 
+Demonstrated effective control and operation in both CCM and DCM.
+3. Precise PWM Control:
+The TL494 module provided precise PWM control, ensuring efficient and reliable performance of the buck converter.
+## Conclusion
 This project effectively showcased the ability to design, implement, and test a DC-DC buck converter using the TL494 module. The experience gained from this project will be valuable for future endeavors in power electronics and control systems.
 
-Results
-Waveform Recording: Recorded the corresponding waveforms for output voltage, inductor current, switching voltages, and the PWM waveform at a switching frequency of 20kHz.
-Simulation: Implemented the converter in MATLAB SIMULINK and recorded the specified observations.
+## Results
+1. Waveform Recording: 
+Recorded the corresponding waveforms for output voltage, inductor current, switching voltages, and the PWM waveform at a switching frequency of 20kHz.
+2. Simulation:
+Implemented the converter in MATLAB SIMULINK and recorded the specified observations.
 This report provides a comprehensive overview of the design, implementation, and testing of a buck converter, highlighting the key components, specifications, and results.
 
 
