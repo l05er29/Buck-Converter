@@ -9,7 +9,7 @@ A buck converter, also known as a step-down converter, is a type of DC-DC conver
 5. PWM Controller: Generates the pulse width modulated signal to control the transistor.
 5. Resistors: Used for sensing and feedback purposes.
 ## Specifications
-1.Input Voltage 
+1. Input Voltage 
 (V_in): 25V
 2. Output Voltage
 (V_out): 17.5V
@@ -34,9 +34,11 @@ The PWM controller regulates the output voltage by adjusting the duty cycle (D) 
 
 PWM Usage: Used for switching modulation, demonstrating Discontinuous Conduction Mode (DCM).
 3. Component Soldering
-PCB Soldering: Soldered the components on a general-purpose PCB, ensuring proper isolation between the drive circuit ground and the power circuit ground.
+PCB Soldering
+: Soldered the components on a general-purpose PCB, ensuring proper isolation between the drive circuit ground and the power circuit ground.
 4. MOSFET Control
-TL494 Module: Integrated the TL494 module for PWM control of the MOSFET, ensuring efficient switching.
+TL494 Module
+: Integrated the TL494 module for PWM control of the MOSFET, ensuring efficient switching.
 5. Voltage Regulation
 Reliable Regulation: Achieved reliable voltage regulation across various applications through precise PWM control.
 ## Testing and Validation
@@ -59,6 +61,7 @@ This project effectively showcased the ability to design, implement, and test a 
 
 ## Results
 Waveform Recording: Recorded the corresponding waveforms for output voltage, inductor current, switching voltages, and the PWM waveform at a switching frequency of 20kHz.
-Simulation: Implemented the converter in MATLAB SIMULINK and recorded the specified observations.
+## Simulation:
+Implemented the converter in MATLAB SIMULINK and recorded the specified observations.
 This report provides a comprehensive overview of the design, implementation, and testing of a buck converter, highlighting the key components, specifications, and results.
 
