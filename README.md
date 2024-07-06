@@ -2,22 +2,21 @@
 A buck converter, also known as a step-down converter, is a type of DC-DC converter that steps down voltage from its input to its output. This report details a hardware implementation of a buck converter with a pulse width modulator (PWM), taking an input of 25V and providing an output of 17.5V with an inductor current of 1A at a switching frequency of 20kHz.
 
 ## Components Used
- Inductor (L): Stores energy and helps in smoothing the current.
+Inductor (L): Stores energy and helps in smoothing the current.
 Capacitor (C): Filters the output to reduce voltage ripple.
 Switch (MOSFET): Acts as a high-speed switch controlled by the PWM.
 Diode: Provides a path for the inductor current when the switch is off.
 PWM Controller: Generates the pulse width modulated signal to control the transistor.
 Resistors: Used for sensing and feedback purposes.
 ## Specifications
-Input Voltage (V_in): 
+1. Input Voltage (V_in): 
 25V
-Output Voltage (V_out): 
+2. Output Voltage (V_out): 
 17.5V
-Inductor Current (I_L):
+3. Inductor Current (I_L):
 1A
-Switching Frequency (f_s): 
-20kHz
-## Circuit Design
+4. Switching Frequency
+5.  (f_s): ## Circuit Design
 1. Buck Converter Topology
 The buck converter consists of the following main components:
 
