@@ -18,7 +18,7 @@ A buck converter, also known as a step-down converter, is a type of DC-DC conver
  4. Switching Frequency
 (f_s): 20kHz
 ## Circuit Design
-1. Buck Converter Topology
+## Buck Converter Topology
 The buck converter consists of the following main components:
 
  1. Switch
@@ -29,17 +29,14 @@ The buck converter consists of the following main components:
    : Limits the rate of change of current.
  4. Capacitor
    : Filters out the voltage ripple in the output.
- 5.  Pulse Width Modulation (PWM)
+ 5. Pulse Width Modulation (PWM)
 The PWM controller regulates the output voltage by adjusting the duty cycle (D) of the switching signal. The duty cycle is defined as the ratio of the on-time of the switch to the total switching period. In this design, the switch is on for 70% of the switching period.
-
-(PWM Usage): Used for switching modulation, demonstrating Discontinuous Conduction Mode (DCM).
- 6. Component Soldering
-(PCB Soldering)
-: Soldered the components on a general-purpose PCB, ensuring proper isolation between the drive circuit ground and the power circuit ground.
- 7. MOSFET Control
-(TL494 Module)
-: Integrated the TL494 module for PWM control of the MOSFET, ensuring efficient switching.
- 8. Voltage Regulation
+ 6. (PWM Usage): Used for switching modulation, demonstrating Discontinuous Conduction Mode (DCM).
+ 7.  Component Soldering
+ (PCB Soldering): Soldered the components on a general-purpose PCB, ensuring proper isolation between the drive circuit ground and the power circuit ground.
+ 8. MOSFET Control
+(TL494 Module): Integrated the TL494 module for PWM control of the MOSFET, ensuring efficient switching.
+ 9. Voltage Regulation
 (Reliable Regulation): Achieved reliable voltage regulation across various applications through precise PWM control.
 ## Testing and Validation
 1. CCM Operation
