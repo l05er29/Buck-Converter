@@ -9,28 +9,40 @@ Diode: Provides a path for the inductor current when the switch is off.
 PWM Controller: Generates the pulse width modulated signal to control the transistor.
 Resistors: Used for sensing and feedback purposes.
 ## Specifications
-Input Voltage (V_in): 25V
-Output Voltage (V_out): 17.5V
-Inductor Current (I_L): 1A
-Switching Frequency (f_s): 20kHz
+Input Voltage (V_in): 
+25V
+Output Voltage (V_out): 
+17.5V
+Inductor Current (I_L):
+1A
+Switching Frequency (f_s): 
+20kHz
 ## Circuit Design
 1. Buck Converter Topology
 The buck converter consists of the following main components:
 
-Switch (MOSFET): Turned on and off by the PWM signal.
-Diode: Provides a freewheeling path for the inductor current when the switch is off.
-Inductor: Limits the rate of change of current.
-Capacitor: Filters out the voltage ripple in the output.
+Switch (MOSFET): 
+Turned on and off by the PWM signal.
+Diode:
+Provides a freewheeling path for the inductor current when the switch is off.
+Inductor: 
+Limits the rate of change of current.
+Capacitor:
+Filters out the voltage ripple in the output.
 2. Pulse Width Modulation (PWM)
 The PWM controller regulates the output voltage by adjusting the duty cycle (D) of the switching signal. The duty cycle is defined as the ratio of the on-time of the switch to the total switching period. In this design, the switch is on for 70% of the switching period.
 
-PWM Usage: Used for switching modulation, demonstrating Discontinuous Conduction Mode (DCM).
+PWM Usage: '
+Used for switching modulation, demonstrating Discontinuous Conduction Mode (DCM).
 3. Component Soldering
-PCB Soldering: Soldered the components on a general-purpose PCB, ensuring proper isolation between the drive circuit ground and the power circuit ground.
+PCB Soldering:
+Soldered the components on a general-purpose PCB, ensuring proper isolation between the drive circuit ground and the power circuit ground.
 4. MOSFET Control
-TL494 Module: Integrated the TL494 module for PWM control of the MOSFET, ensuring efficient switching.
+TL494 Module:
+Integrated the TL494 module for PWM control of the MOSFET, ensuring efficient switching.
 5. Voltage Regulation
-Reliable Regulation: Achieved reliable voltage regulation across various applications through precise PWM control.
+Reliable Regulation:
+Achieved reliable voltage regulation across various applications through precise PWM control.
 ##  Testing and Validation
 1. CCM Operation
 Continuous Conduction Mode (CCM): Verified the converter's operation in CCM by observing the switch current and diode voltage waveforms.
